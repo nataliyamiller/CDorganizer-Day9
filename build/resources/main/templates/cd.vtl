@@ -1,0 +1,11 @@
+#if ($cd)
+  <h1>$cd.getTitle()</h1>
+  <h1>$cd.getArtist()</h1>
+#else
+  <h1>CD not found</h1>
+#end
+
+<ul>
+  <li><a href="/cds/new">Add another CD</a></li>
+  <li><a href="/cds">All CD's</a></li>
+</ul>
